@@ -188,7 +188,8 @@ p{
 }
 
 #client-section img{
-    height: 120px;
+    height: 85px;
+    margin: 0px 29px 0px 29px;
 }
 
 #clients{
@@ -221,6 +222,8 @@ p{
 .contact-box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
     align-items: center;
     padding-bottom: 34px;
 }
@@ -228,13 +231,25 @@ p{
     width: 100%;
     padding: 0.3rem;
     /* margin: 10px; */
-    margin-bottom: 6px;
+    margin-bottom: 1rem;
     font-size: 1.1rem;
     border-radius: 8px;
     display: block;
+    background-image: linear-gradient(244deg, #fdfbfb 0%, #ebedee 100%);
     
     
 }
+
+.contact-div{
+    width: 422px;
+    margin-top: 27px;
+    color: white;
+    height: 540px;
+    border-radius: 2rem;
+    padding: 23px;
+    background-color: rgb(46 43 43 / 50%);
+}
+
 
 .contact-box form-group{
     width: 50%;
@@ -247,6 +262,22 @@ p{
 .contact-box label{
     font-size: 1.2rem;
     font-family: "Bree Serif", serif;
+}
+
+.contact-box button{
+    background-color: #110e0e;
+    height: 34px;
+    color: white;
+    width: 107px;
+    font-size: 17px;
+    border-radius: 0.6rem;
+    display: block;
+    margin: auto;
+}
+
+.contact-box button:hover{
+    background-color: #211c1c;
+    cursor: pointer;
 }
 
 /* ------------------------------------------- footer ------------------------------------------- */
